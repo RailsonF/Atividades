@@ -1,1 +1,1 @@
-Repositório para envio das atividades
+Repositório para envio das atividades da faculdade
