@@ -1,0 +1,42 @@
+@import url('mobile.css');
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+
+div{
+    padding: 16px;
+}
+
+.first{
+    background-color: burlywood;
+}
+    @media (max-width: 700px){
+        .first{
+            background-color: red;
+        }
+    }
+
+.first h1{
+    font-size: 4.4rem;
+}
+
+.second{
+    background-color: cornflowerblue;
+}
+
+    @media (min-width: 320px) and (max-width: 480px){
+        .second{
+            background-color: green;
+        }
+    }
+

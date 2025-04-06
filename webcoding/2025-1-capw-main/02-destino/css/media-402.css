@@ -1,0 +1,37 @@
+@media (max-width:402px) {
+    nav a img{
+        width:154px;
+    }
+
+    form{
+        padding: 15px 15px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    input{
+        text-align: center;
+        color: #C8C2D6;
+
+    }
+
+
+    div h2 {
+        font-size: 28px;
+    }
+
+    form button {
+        padding: 7px 41px;
+    }
+
+    .btn-primary {
+        display: none;
+    }
+
+    .btn-lupa {
+        display: inline-block;
+        padding: 16px 16px;
+        
+    }
+}
