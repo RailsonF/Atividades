@@ -1,0 +1,27 @@
+@use 'variables' as var;
+
+@mixin displayFlex($gap: 32px, $justify: center){
+    display: flex;
+    gap: $gap;
+    justify-content: $justify;
+    align-items: center;
+}
+@mixin displayGrid($colunas: 1fr repeat(1, auto), $alinhamento: center){
+    display: grid;
+    grid-template-columns: $colunas;
+    align-items: $alinhamento;
+}
+
+
+@mixin botao($bgColorBotao: 'roxo'){
+    width: 231px;
+    height: 48px;
+    color: white;
+    text-transform: uppercase;
+    padding: 14px 0px;
+    @if $bgColorBotao == 'roxo'{
+        background-color: var.$primary-color;
+    }@else{
+        background-color: var.$black;
+    }
+}

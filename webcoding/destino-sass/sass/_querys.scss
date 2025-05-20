@@ -1,0 +1,9 @@
+@use 'variables' as var;
+
+@mixin tablet(){
+    @media (min-width: var.$brakpointTablet){
+    
+    }
+}
+
+
